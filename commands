@@ -1,0 +1,32 @@
+git init -> coloca o diretório em que o terminal está no ecossistema Git.
+
+subl Readme.md -> abre o Sublime para editar o arquivo Readme.
+
+git add <arquivo> -> adiciona o arquivo para a lista de modificações a serem aprovadas.
+
+git commit -m "Descrição da atualização" -> adiciona a atualização na fila para a nova versão
+
+git commit -am "Descrição da att" -> adiciona todas as atualizações na fila.
+
+git log e git shortlog -> mostra um log dos commits e seus autores
+
+git status -> mostra o status do repositório no git.
+
+git checkout <arquivo> -> remove o arquivo da fila de atts
+
+git reset --soft idDaAtualizaçãoAnterior -> Volta para a atualização anterior.
+Com --soft, a atualização removida volta para fila de atualizações.
+Com --mixed, volta para a lista de modificações.
+Com --hard, a atualização é excluida por completo.
+
+git remote add origin <link ou ssh do repositorio> -> conecta o o repositorio do github localmente com o que está atualmente no terminal.
+
+git push -u origin master -> transfere os arquivos do rep local para o remoto.
+-u origin master é só na primeira vez.
+
+/****MAIS USADOS****/
+git add
+git commit
+git push
+git pull
+/*******************/
